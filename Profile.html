@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style1.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicon@2.1.1/css/boxicons.min.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/4eb0f50698.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">sampath.</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about" >About</a>
+            <a href="#services" >Skill</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+            <section class="home">
+                <div class="home-content">
+                    <h2>I,m<h1> <span>Sai Sampath</span><h2>This is my official website to show all Details and skills</h2></h1></h2>
+                </div>
+            </section>
+         <!-- -----about------ -->
+         <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="../img/pic.jpeg" >
+                    </div>
+                    <div class="about-col-2">
+                       <h1 class="sub-title">About me </h1>
+                        <p></p>
+                       <div class="tab-tittles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('education')">education</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br> Web app Development</li>
+                            <li><span>Database</span><br>SQL</li>
+                            <li><span>Backend technologies</span><br>JAVA</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>AUG-2022 to OCT-2022</span> <br>Aurobindo pharma</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>AUG-2018 to OCT-2022</span> <br>Brindavan institute of technology and Science</li>
+                            <li><span>JUNE-2016 to OCT-2018</span> <br>Sri chaithanya junior College</li>
+                            <li><span>JUNE-2015 to MAY-2016</span> <br>Bhashyam High School</li>
+                        </ul>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">My services</h1>
+                    <div class="service-list">
+                        <div>
+                            <h2>Web Design</h2>
+                           <p>Web design with HTML, CSS, and JS creates dynamic, visually appealing websites. HTML structures content, CSS styles it, and JS adds interactivity, resulting in a seamless user experience and modern design..</p>
+                         
+                        </div>
+                        <div>
+                            <h2>DataBase</h2>
+                            <p>SQL (Structured Query Language) is a powerful language for managing relational databases. It enables efficient data retrieval, manipulation, and database administration, ensuring organized and accessible information for applications.</p>
+                           
+                          
+                        </div>
+                        <div>
+                            <h2>Backend Technologies</h2>
+                            <p>
+                                Java is a potent backend technology, celebrated for portability and scalability. Java excels in developing secure, high-performance server-side applications for diverse enterprise requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------------portfolio----------- -->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My work</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="../img/work-1.png">
+                            <div class="layer">
+                                <h2>Web design</h2>
+                            <p>I can create interactive webpages by using HTML,CSS,JAVASCRIPT</p>
+                        </div>
+                    </div>
+                        <div class="work">
+                            <img src="../img/best-database-to-work-with-in-2020.jpg">
+                            <div class="layer">
+                                <h2>Database</h2>
+                                <p> SQL (Structured Query Language) is a powerful language for managing relational databases. It enables efficient data retrieval, manipulation, and database administration, ensuring organized and accessible information for applications</p>
+                            </div>
+
+                        </div>
+                        <div class="work">
+                            <img src="../img/work-3.png">
+                            <div class="layer">
+                                <h2>Backend technologies</h2>
+                                <p>Backend technology refers to the programming languages used in web development to create and manage a website or application. Backend technologies are responsible for the “behind the scenes” work, like storing data</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- -----------------------contanct--------------- -->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact me</h1>
+                            <p> <i class="fa-solid fa-paper-plane"></i>badhunsaisampath001@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>9182720292</p>
+                            <div class="social-icons">
+                                <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <a href="img/resuume...pdf" download="" class="btn btn2" type="button">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your name" required>
+                                <input type="email" name="email" placeholder="your email" required>
+                                <textarea name="message"  rows="6" placeholder="Your message"></textarea>
+                                <button type="submit" class="btn btn2">submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy-right">
+                <p>Copyright Sampath. made with <i class="fa-solid fa-heart"></i>by easy tutorial</p>
+            </div>
+         </div>
+            
+            
+            
+<script>
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>        
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyCptaTCwsoRGYkR-GL6j7CigKJKISgaTkC20ao8WmOKXClTk-En94FZRucVzPMKCsu/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+       
+  
+</body>
+</html>
